@@ -8,3 +8,21 @@ body {
   opacity: 0.9;
   text-align: center;
 }
+
+nav span {
+  display: inline-block;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  height: 69px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
