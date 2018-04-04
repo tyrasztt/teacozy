@@ -14,18 +14,20 @@ a {
 }
 
 /* Header */
-/*.headcontainer {
-  display: flex;
-}*/
+
+.headcontianter {
+
+}
 
 header {
   display: flex;
   position: fixed;
   width: 100%;
   height: 69px;
-  border-bottom: 1px solid seashell;
   z-index: 1;
   align-items: center;
+  border-bottom: 1px solid seashell;
+
 }
 
 
@@ -38,4 +40,11 @@ nav span{
   display: inline-block;
   text-decoration: underline;
   padding: 20px 10px;
+}
+
+.content {
+  display: flex;
+  width: 1200px;
+  height: 700px;
+  color: white;
 }
