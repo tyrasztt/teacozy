@@ -16,7 +16,7 @@ a {
 nav span {
   display: inline-block;
   text-decoration: underline;
-  padding: 20px 10px;
+  padding-right: 20px;
 }
 
 /* Header */
@@ -44,10 +44,27 @@ header {
     height: 50px;
 }
 
-.mission {
-  display: flex;
+.main {
+  padding-top: 69px;
+  opacity: 0.9;
   width: 1200px;
+  margin: auto;
+}
+
+#mission {
   height: 700px;
-  border-top: 1px solid white;
-  border-bottom: 1px solid white;
+  background-image: url("../images/img-mission-background.jpg");
+  padding-top: 70px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#mission .content {
+  width: 1200px;
+  margin: auto;
+  background-color: black;
 }
